@@ -1,0 +1,36 @@
+@import url(../../_variables.css);
+
+.list {
+  height: 45%;
+  list-style-type: none;
+  margin: 0.2rem 0 0.4rem;
+  padding: 0 0.5rem;
+  overflow: hidden;
+  overflow-y: scroll;
+  background-color: var(--selected-list-color);
+  border: 0.5rem solid var(--selected-list-border-color);
+  border-radius: 2rem;
+}
+
+.list::-webkit-scrollbar {
+  display: none;
+}
+
+.list h3 {
+  color: var(--selected-list-border-color);
+}
+
+.title {
+  color: var(--selected-text-color);
+  font-size: 1rem;
+  text-transform: uppercase;
+  user-select: none;
+  margin: 0.5rem 0 0 0;
+}
+
+.subtitle {
+  font-size: 0.7rem;
+  margin: 0.2rem 0 0.3rem;
+  user-select: none;
+  color: var(--selected-text-color);
+}

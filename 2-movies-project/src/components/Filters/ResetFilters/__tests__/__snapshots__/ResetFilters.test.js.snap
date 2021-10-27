@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ResetFilters component matches a snapshot 1`] = `
+<DocumentFragment>
+  <button
+    class="w-100 btn btn-outline-secondary"
+    data-testid="reset-button"
+    type="button"
+  >
+    Reset Filters
+  </button>
+</DocumentFragment>
+`;

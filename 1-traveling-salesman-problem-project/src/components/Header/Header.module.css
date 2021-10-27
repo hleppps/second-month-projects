@@ -1,0 +1,29 @@
+@import url(../../_variables.css);
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 5rem;
+  background-color: var(--selected-primary-color);
+  color: var(--selected-secondary-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5%;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  z-index: 10;
+}
+
+.header button {
+  padding: 1.5rem;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: var(--selected-secondary-color);
+}
+
+.header h1 {
+  user-select: none;
+}

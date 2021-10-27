@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FilmsListItems component matches a snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="card card"
+  >
+    <img
+      class="card-img-top"
+      src="https://i.imgur.com/GIeKF0n.png"
+    />
+    <div
+      class="body card-body"
+    >
+      <div
+        class="card-title h5"
+        data-testid="title"
+      />
+      <p
+        class="card-text"
+        data-testid="subtitle"
+      >
+        Rating: 
+      </p>
+    </div>
+  </div>
+</DocumentFragment>
+`;

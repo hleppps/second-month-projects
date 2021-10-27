@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches a snapshot 1`] = `
+<DocumentFragment>
+  <svg
+    class="rsm-svg map"
+    viewBox="0 0 800 600"
+  >
+    <g
+      class="rsm-geographies "
+      data-testid="geographies"
+    />
+  </svg>
+</DocumentFragment>
+`;

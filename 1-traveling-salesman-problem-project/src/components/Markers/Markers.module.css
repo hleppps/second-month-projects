@@ -1,0 +1,17 @@
+@import url(../../_variables.css);
+
+.marker circle {
+  fill: var(--selected-marker-color);
+}
+
+.marker text {
+  font-size: 1.2rem;
+  font-family: "system-ui";
+  fill: #a6a2a2;
+  user-select: none;
+}
+
+.marker text:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}

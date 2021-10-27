@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SortBy component matches a snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="my-3"
+  >
+    <label
+      class="form-label"
+    >
+      Sort by:
+    </label>
+    <select
+      aria-label="Default select example"
+      class="form-select"
+      data-testid="sort-select"
+    >
+      <option
+        value="popularity.desc"
+      >
+        Most Popular
+      </option>
+      <option
+        value="popularity.asc"
+      >
+        Least Popular
+      </option>
+      <option
+        value="vote_average.desc"
+      >
+        Most Wanted
+      </option>
+      <option
+        value="vote_average.asc"
+      >
+        Least Wanted
+      </option>
+    </select>
+  </div>
+</DocumentFragment>
+`;

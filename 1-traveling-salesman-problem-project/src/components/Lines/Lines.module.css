@@ -1,0 +1,5 @@
+@import url(../../_variables.css);
+
+.line {
+  stroke: var(--selected-line-color)
+}

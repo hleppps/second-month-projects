@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Genres components matches a snapshot 1`] = `
+<DocumentFragment>
+  <button
+    class="my-2 w-100 btn btn-outline-secondary"
+    data-testid="reset-genres"
+    type="button"
+  >
+    Show All Genres
+  </button>
+  <div
+    class="my-2"
+    data-testid="genres-list"
+  >
+    <div
+      class="form-check"
+    >
+      <input
+        class="form-check-input"
+        data-testid="checkbox"
+        id="28"
+        type="checkbox"
+      />
+      <label
+        class="form-check-label"
+        for="28"
+        title=""
+      >
+        Action
+      </label>
+    </div>
+  </div>
+</DocumentFragment>
+`;

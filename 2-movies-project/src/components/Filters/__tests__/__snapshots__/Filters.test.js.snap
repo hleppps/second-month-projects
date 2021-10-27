@@ -1,0 +1,136 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Filters components matches a snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="filters"
+    data-testid="filters"
+  >
+    <h2>
+      Filters:
+    </h2>
+    <button
+      class="w-100 btn btn-outline-secondary"
+      data-testid="reset-button"
+      type="button"
+    >
+      Reset Filters
+    </button>
+    <div
+      class="my-3"
+    >
+      <label
+        class="form-label"
+      >
+        Sort by:
+      </label>
+      <select
+        aria-label="Default select example"
+        class="form-select"
+        data-testid="sort-select"
+      >
+        <option
+          value="popularity.desc"
+        >
+          Most Popular
+        </option>
+        <option
+          value="popularity.asc"
+        >
+          Least Popular
+        </option>
+        <option
+          value="vote_average.desc"
+        >
+          Most Wanted
+        </option>
+        <option
+          value="vote_average.asc"
+        >
+          Least Wanted
+        </option>
+      </select>
+    </div>
+    <div
+      class="my-3"
+    >
+      <label
+        class="form-label"
+      >
+        Release year:
+      </label>
+      <select
+        aria-label="Default select example"
+        class="form-select"
+        data-testid="year-select"
+      >
+        <option
+          value="2021"
+        >
+          2021
+        </option>
+        <option
+          value="2020"
+        >
+          2020
+        </option>
+        <option
+          value="2019"
+        >
+          2019
+        </option>
+        <option
+          value="2018"
+        >
+          2018
+        </option>
+      </select>
+    </div>
+    <button
+      class="my-2 w-100 btn btn-outline-secondary"
+      data-testid="reset-genres"
+      type="button"
+    >
+      Show All Genres
+    </button>
+    <div
+      class="my-2"
+      data-testid="genres-list"
+    >
+      <div
+        class="spinner-grow"
+      />
+    </div>
+    <div
+      class="pagination"
+    >
+      <div
+        class="buttons"
+      >
+        <button
+          class="m-1 w-100 btn btn-outline-secondary"
+          data-testid="decrease-button"
+          type="button"
+        >
+          «
+        </button>
+        <button
+          class="m-1 w-100 btn btn-outline-secondary"
+          data-testid="increase-button"
+          type="button"
+        >
+          »
+        </button>
+      </div>
+      <p
+        class="pages"
+      >
+        <span>
+          Page:
+        </span>
+         1 of 
+      </p>
+    </div>
+  </div>
+</DocumentFragment>
+`;

@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ReleaseYear component matches a snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="my-3"
+  >
+    <label
+      class="form-label"
+    >
+      Release year:
+    </label>
+    <select
+      aria-label="Default select example"
+      class="form-select"
+      data-testid="year-select"
+    >
+      <option
+        value="2021"
+      >
+        2021
+      </option>
+      <option
+        value="2020"
+      >
+        2020
+      </option>
+      <option
+        value="2019"
+      >
+        2019
+      </option>
+      <option
+        value="2018"
+      >
+        2018
+      </option>
+    </select>
+  </div>
+</DocumentFragment>
+`;

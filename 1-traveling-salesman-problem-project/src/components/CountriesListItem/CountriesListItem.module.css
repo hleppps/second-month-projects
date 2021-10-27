@@ -1,0 +1,30 @@
+@import url(../../_variables.css);
+
+.listItem {
+  user-select: none;
+  cursor: pointer;
+  margin: 0.5rem 0;
+  padding: 0.4rem;
+  border: 1px solid var(--selected-text-border-color);
+  border-radius: 1rem;
+  color: var(--selected-text-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.name {
+  margin: 0;
+  width: 80%;
+  text-align: left;
+  display: inline-block;
+}
+
+.flag {
+  width: 18%;
+  max-width: 30px;
+  height: 20px;
+  object-fit: cover;
+  border: 1px solid #3b2403;
+  border-radius: .5rem;
+}

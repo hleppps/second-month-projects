@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CountriesListItem matches a snapshot 1`] = `
+<DocumentFragment>
+  <li
+    class="listItem"
+    data-testid="countryListItem"
+    draggable="true"
+  >
+    <p
+      class="name"
+      data-testid="countryName"
+    />
+    <img
+      class="flag"
+      data-testid="flag"
+      draggable="false"
+    />
+  </li>
+</DocumentFragment>
+`;

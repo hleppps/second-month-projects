@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GenreItem component matches a snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class=""
+  >
+    <input
+      class="form-check-input"
+      data-testid="checkbox"
+      type="checkbox"
+    />
+  </div>
+</DocumentFragment>
+`;

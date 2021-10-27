@@ -1,0 +1,17 @@
+@import url(../../_variables.css);
+
+.card {
+  height: 100%;
+  padding: 1rem;
+  box-shadow: 0 0 2px rgba(109, 89, 0, 0.25);
+  border-left: 15px solid var(--selected-card-border-color);
+  background-color:var(--selected-secondary-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+  text-align: center;
+  flex-basis: 25%;
+  min-width: 230px;
+  max-width: 300px;
+}

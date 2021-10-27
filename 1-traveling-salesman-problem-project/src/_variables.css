@@ -1,0 +1,34 @@
+:root {
+  /* Set the deafult values */
+  --selected-primary-color: var(--dark-primary-color);
+  --selected-secondary-color: var(--dark-secondary-color);
+  --selected-list-color: var(--dark-list-color);
+  --selected-list-border-color: var(--dark-list-border-color);
+  --selected-text-color: var(--dark-text-color);
+  --selected-text-border-color: var(--dark-text-border-color);
+  --selected-card-border-color: var(--dark-card-border-color);
+  --selected-marker-color: var(--dark-marker-color);
+  --selected-line-color: var(--dark-line-color);
+
+  /* Set the 'light' theme */
+  --light-primary-color: #e6992d;
+  --light-secondary-color: #fff;
+  --light-list-color: #fbbb3b;
+  --light-list-border-color: #fde0a7;
+  --light-text-color: #5c3703;
+  --light-text-border-color: #c9811e;
+  --light-card-border-color: #fef2d9;
+  --light-marker-color: #5c3703;
+  --light-line-color: #e6992d;
+
+  /* Set the 'dark' theme */
+  --dark-primary-color: #141625;
+  --dark-secondary-color: #c0c1d1;
+  --dark-list-color: #c1c7e8;
+  --dark-list-border-color: #e0e1f2;
+  --dark-text-color: #161030;
+  --dark-text-border-color: #908eb4;
+  --dark-card-border-color: #d7d8e3;
+  --dark-marker-color: #161030;
+  --dark-line-color: #908eb4;
+}

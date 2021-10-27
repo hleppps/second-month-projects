@@ -1,0 +1,26 @@
+@import url(../../_variables.css);
+
+.spinner {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+}
+.spinner:after {
+  content: ' ';
+  display: block;
+  width: 64px;
+  height: 64px;
+  margin-top: 10px;
+  border-radius: 50%;
+  border: 6px solid var(--selected-list-border-color);
+  border-color: var(--selected-list-border-color) transparent var(--selected-list-border-color) transparent;
+  animation: spinner 1.2s linear infinite;
+}
+@keyframes spinner {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

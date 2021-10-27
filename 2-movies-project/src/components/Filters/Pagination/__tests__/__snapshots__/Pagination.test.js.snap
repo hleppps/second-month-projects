@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pagination component matches a snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="pagination"
+  >
+    <div
+      class="buttons"
+    >
+      <button
+        class="m-1 w-100 btn btn-outline-secondary"
+        data-testid="decrease-button"
+        type="button"
+      >
+        «
+      </button>
+      <button
+        class="m-1 w-100 btn btn-outline-secondary"
+        data-testid="increase-button"
+        type="button"
+      >
+        »
+      </button>
+    </div>
+    <p
+      class="pages"
+    >
+      <span>
+        Page:
+      </span>
+        of 
+    </p>
+  </div>
+</DocumentFragment>
+`;
