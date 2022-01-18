@@ -2,7 +2,6 @@
   "name": "movies-project",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/hleppps/movies-project/",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.36",
     "@fortawesome/free-regular-svg-icons": "^5.15.4",
