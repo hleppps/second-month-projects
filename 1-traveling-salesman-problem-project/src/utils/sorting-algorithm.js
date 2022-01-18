@@ -59,8 +59,8 @@ const sortingAlgorithm = (selectedCoordinates) => {
     }
     return [coordinatePair, secondCoordinatePair];
   });
-
   // coordinatePairs = [ [[x1, y1], [x2, y2]], [[x2, y2], [x3, y3]], [[x3, y3], [x1, y1]] ]
+  
   return coordinatePairs;
 };
 
